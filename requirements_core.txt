@@ -1,0 +1,5 @@
+numpy
+psutil
+opt_einsum
+qiskit
+qiskit-aer

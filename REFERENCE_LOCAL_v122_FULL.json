@@ -1,0 +1,47 @@
+{
+  "reference_name": "Local Windows v1.2.2 Strong FULL",
+  "environment_signature": "a7691911725ae035",
+  "cases": 90,
+  "repeats": 9,
+  "frozen_subject": true,
+  "best_valid_rival_score": {
+    "cold": {
+      "wins": 71,
+      "ties": 0,
+      "losses": 19,
+      "geomean": 1.69,
+      "ci95_low": 1.49,
+      "ci95_high": 1.91
+    },
+    "warm": {
+      "wins": 67,
+      "ties": 8,
+      "losses": 15,
+      "geomean": 1.02
+    },
+    "advanced_case_coverage": 1.0,
+    "advanced_rivals": [
+      "cotengra-hyper2s",
+      "cotengra-rg128",
+      "opt-rg128",
+      "quimb-auto-hq"
+    ]
+  },
+  "replication_vs_opt_greedy": {
+    "cold": {
+      "wins": 90,
+      "ties": 0,
+      "losses": 0,
+      "geomean": 2.24,
+      "ci95_low": 2.1,
+      "ci95_high": 2.39
+    },
+    "warm": {
+      "wins": 85,
+      "ties": 1,
+      "losses": 4,
+      "geomean": 1.32
+    }
+  },
+  "note": "Reference summary only. Remote runs must be judged from their own raw JSON and locked protocol."
+}

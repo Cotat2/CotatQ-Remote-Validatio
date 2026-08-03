@@ -1,0 +1,20 @@
+{
+  "source": "CotatQ v1.1.1 FULL isolated timing audit",
+  "date": "2026-08-03",
+  "target_complex_longrange": {
+    "cases": 180,
+    "scorable": 180,
+    "cold_wins": 180,
+    "cold_ties": 0,
+    "cold_losses": 0,
+    "cold_geomean_vs_opt_greedy": 1.88,
+    "cold_ci95_low": 1.8,
+    "cold_ci95_high": 1.96,
+    "warm_wins": 168,
+    "warm_ties": 1,
+    "warm_losses": 11,
+    "warm_geomean_vs_opt_greedy": 1.27,
+    "accuracy_failures": 0
+  },
+  "note": "Reference only. v1.2 strong-rival scoring is harder: it compares CotatQ against the best finished numerically-valid rival, not only opt_einsum greedy."
+}

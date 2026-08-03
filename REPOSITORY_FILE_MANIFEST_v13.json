@@ -1,0 +1,347 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "74f066599d3fe2817756c3e532a869d370d4294c5c0a188487da2855f9b2378e",
+    "bytes": 32
+  },
+  {
+    "path": ".github/workflows/cotatq-remote-doctor.yml",
+    "sha256": "4162da41bce2edec95cde0533c166279ffe650ffe29f49115603bf97893818ef",
+    "bytes": 1351
+  },
+  {
+    "path": ".github/workflows/cotatq-remote-full.yml",
+    "sha256": "5362d40e0b379fe57f107dfc551363280eba365fdf3b411b5da22adbed5762fb",
+    "bytes": 2459
+  },
+  {
+    "path": ".github/workflows/cotatq-remote-standard.yml",
+    "sha256": "8f141a125e54721e6e3be69e37f72b6da8effe0d5f229b9c7f139aaca7bbe949",
+    "bytes": 2105
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "238b4b4b0d40c93a8d7e5c69394be89bde8718dfa327fd83d4f041ed604b6634",
+    "bytes": 174
+  },
+  {
+    "path": "AER_MPS_FIX_v122.md",
+    "sha256": "bc32549633549537cdc7c77f156785e5acb14f5c36ce64309d1e03281938bb17",
+    "bytes": 1124
+  },
+  {
+    "path": "CLAIMS_POLICY.md",
+    "sha256": "a65ec3a7807b52f5b2bf33af2cba46391d132f2db406901380344e0c99eb70e1",
+    "bytes": 1180
+  },
+  {
+    "path": "COMPATIBILITY_PATCH_v121.md",
+    "sha256": "15719667eec326895276e7c5da76c8519edc8ebf3934baada1319d41255aba38",
+    "bytes": 2006
+  },
+  {
+    "path": "FROZEN_SUBJECT_HASHES.json",
+    "sha256": "2f3069da33d3e33997349d2663b63f6dca4efea4ed5aa3c060bc7c701c0dcbde",
+    "bytes": 437
+  },
+  {
+    "path": "LOCKED_CASE_MANIFESTS.json",
+    "sha256": "fec384b3f521bcddf936e5e82e273eb6ed966348c8513dab83635161198a781e",
+    "bytes": 83869
+  },
+  {
+    "path": "PASOS_RAPIDOS_GITHUB.txt",
+    "sha256": "025058362f0f81601f5cbd399dbe73c2b5d4d4f9614cb010de960e3ec517482a",
+    "bytes": 523
+  },
+  {
+    "path": "PATCH_LOCK_v121.json",
+    "sha256": "7dc6f7a9d43b6e7bafb71ea0c5dcd0c60d7288e021959e6b2fdb72f9550293de",
+    "bytes": 1876
+  },
+  {
+    "path": "PATCH_LOCK_v122.json",
+    "sha256": "151e730c30247e2cc09d703882da68208efcb6cf0c449c2e5f3c0283f87503fc",
+    "bytes": 1491
+  },
+  {
+    "path": "PROTOCOL_LOCK.json",
+    "sha256": "6a5c3740fd8c8aada4672e4b4d5c957280dc5803ee0df3342d318489b1004266",
+    "bytes": 1698
+  },
+  {
+    "path": "PUSH_TO_GITHUB.ps1",
+    "sha256": "8b05562758b31715022a72603c4e0bdab26a666aff1c7a160d04409c45254efb",
+    "bytes": 462
+  },
+  {
+    "path": "README.md",
+    "sha256": "de208cdd92cfcceff44ffcdd7852880f9b0624ee7ca579b0a9622b969034d1c9",
+    "bytes": 3972
+  },
+  {
+    "path": "README_GITHUB_REMOTE.md",
+    "sha256": "a7f5d561d6e099d2fe5eabeb4cc7bdfe7383ef8668c079ca4c0a7a45cdfeb04b",
+    "bytes": 3307
+  },
+  {
+    "path": "README_v121.md",
+    "sha256": "3cf3d6a56b72233b1586820d63ee992f089a791a894d62e77844133d447c74c2",
+    "bytes": 1254
+  },
+  {
+    "path": "README_v122.md",
+    "sha256": "c3d1979be5fa9110e74c6459cd7b5b3cb5b68272be569c445220b6b3a8f33a8b",
+    "bytes": 1941
+  },
+  {
+    "path": "REFERENCE_LOCAL_v122_FULL.json",
+    "sha256": "5cb201e8ca47bb98c930a6b90e2cdcd3be21deacd91d1548aee2fb0c16d4d60d",
+    "bytes": 987
+  },
+  {
+    "path": "REFERENCE_v111_FULL.json",
+    "sha256": "301f9f3a0965c2128a24b0bc69e12c60e5483608ec5f4f7767a92dac2f0ad97c",
+    "bytes": 612
+  },
+  {
+    "path": "REMOTE_PROTOCOL_LOCK_v13.json",
+    "sha256": "bfc9521c02f79141e1f68e106fe7b20393c3b9aa5b4e4091eb880d60c37a6344",
+    "bytes": 1602
+  },
+  {
+    "path": "REMOTE_VALIDATION_PROTOCOL_v13.md",
+    "sha256": "1a1b339e2757c0ab97033a9bf59e5ce22c429b5bf9b4186098d26ff065740b5e",
+    "bytes": 1575
+  },
+  {
+    "path": "REPOSITORY_FILE_MANIFEST_v13.json",
+    "sha256": "5b2b23aa70cef810f1e0403e27ec084428cce78db4cbf10a095056e497c720c1",
+    "bytes": 9902
+  },
+  {
+    "path": "bundle_remote_v13.py",
+    "sha256": "6375bb46742d31bd44d383b850f51cbc7d1b71fabf0db039d126bdd358d0e1a6",
+    "bytes": 1186
+  },
+  {
+    "path": "bundle_results_v12.py",
+    "sha256": "4abab44c398ed37f45639eada308208ff0446e34702bd9c48eb75f3ecff38b15",
+    "bytes": 1260
+  },
+  {
+    "path": "bundle_results_v121.py",
+    "sha256": "1e228be6c24ffe1b168e87d5978453f623d1dbeb7fb5598d8becb8fa73bd0692",
+    "bytes": 1285
+  },
+  {
+    "path": "compare_remote_to_local_v13.py",
+    "sha256": "e04c07bd71fea3ebc287059962403f91faffacbd4f2a0e9abb00b56becbfcc56",
+    "bytes": 1743
+  },
+  {
+    "path": "compare_two_runs_v12.py",
+    "sha256": "4590a701777e62950827c1b44f9e22a2497ce36d10de051a2cc76374bd4845fa",
+    "bytes": 2282
+  },
+  {
+    "path": "cotatq_v04.py",
+    "sha256": "7f22df932d5a83b59ed98eba77d4c600585686f5ad436b09859d0e54abcab685",
+    "bytes": 16308
+  },
+  {
+    "path": "cotatq_v07.py",
+    "sha256": "89341f7d4590158c66d338280e2ea4a29c7328aba2af88eca31077481482b656",
+    "bytes": 14142
+  },
+  {
+    "path": "cotatq_v09.py",
+    "sha256": "930a79e05fac1fd27059d4e68e856fd3220d8b4ba36d3dfd6221f0ca9a463189",
+    "bytes": 12310
+  },
+  {
+    "path": "cotatq_v10.py",
+    "sha256": "948e7eee7fd58de896bd123c5d2af7a02ac21cc8b3a8c579c45182904e5e2426",
+    "bytes": 6378
+  },
+  {
+    "path": "cotatq_v11.py",
+    "sha256": "9ab021837f81b7a58d13e3e6f4dc85c444c9c9c49ff1e51f18875494584f545e",
+    "bytes": 14433
+  },
+  {
+    "path": "diagnose_aer_mps_v122.py",
+    "sha256": "78a04346c538c1dbb4bbfe00092afb16f49c2aad738fc98d6033fd2145a3f7a1",
+    "bytes": 4477
+  },
+  {
+    "path": "doctor_v12.py",
+    "sha256": "acdc639c9cb1a646d012323393190821e251d0e8972a5df0e7e699ca4e8b4a0f",
+    "bytes": 3829
+  },
+  {
+    "path": "doctor_v121.py",
+    "sha256": "6b2194ae605561cb45f4c704e11723a57c42097eafc028b5f5ab501c187e82a7",
+    "bytes": 5623
+  },
+  {
+    "path": "doctor_v122.py",
+    "sha256": "96951122cc54ffb2c8ee3a4a642c75bb1ac7caf2023db303e97dbc731ee29a2c",
+    "bytes": 5475
+  },
+  {
+    "path": "external_worker_v12.py",
+    "sha256": "2565e0d476ecf38faa8940dd67c9012236b640d31bb5d778e3b6e437fa2d20a0",
+    "bytes": 16956
+  },
+  {
+    "path": "external_worker_v121.py",
+    "sha256": "8b8e24a8071da2b9cc350efcd94e9f7caac3f8760ff94ab29e22e6b62b145686",
+    "bytes": 21909
+  },
+  {
+    "path": "external_worker_v121_REFERENCE.py",
+    "sha256": "8b8e24a8071da2b9cc350efcd94e9f7caac3f8760ff94ab29e22e6b62b145686",
+    "bytes": 21909
+  },
+  {
+    "path": "external_worker_v122.py",
+    "sha256": "f502e3e82e6cacae1ca5b37904bab4dbbbeb26d6f38d10fe2e5303c06c770511",
+    "bytes": 28061
+  },
+  {
+    "path": "external_worker_v12_BROKEN_REFERENCE.py",
+    "sha256": "2565e0d476ecf38faa8940dd67c9012236b640d31bb5d778e3b6e437fa2d20a0",
+    "bytes": 16956
+  },
+  {
+    "path": "independent_validation_v12.py",
+    "sha256": "85be52d9b9aad533c123088fa20c0d76fd65181b69dbefb89cb9ab81015bf296",
+    "bytes": 24644
+  },
+  {
+    "path": "independent_validation_v121.py",
+    "sha256": "27c0c1fdeec49d86638d2e30127750cb4ed6172b753700e9650c8df71b4c4515",
+    "bytes": 24721
+  },
+  {
+    "path": "independent_validation_v122.py",
+    "sha256": "c47ab320404b138ccefa93aee1121c5b63ca197cd4c0f6884423a3b85f1cf8ba",
+    "bytes": 24710
+  },
+  {
+    "path": "install_external_rivals.bat",
+    "sha256": "bb9f44ea4ff72c07c50882fc79b1a735cdb27874d2eda2688a40874ebd63ea56",
+    "bytes": 982
+  },
+  {
+    "path": "protocol_v12.py",
+    "sha256": "275752b34ef1477d7857f3926dea0631230e9fd1560f915895e6fb66c6ca8eea",
+    "bytes": 4825
+  },
+  {
+    "path": "remote_entrypoint_v13.py",
+    "sha256": "de8ae4d2f63f66742bf6b41e9370f967b00b4a8ec7e91cc160b4abc258c6ee25",
+    "bytes": 2569
+  },
+  {
+    "path": "remote_hardware_probe_v13.py",
+    "sha256": "cee645bd4e92d883d69412527947464d03db26806d8e85de26ee7a8e27e823b0",
+    "bytes": 2125
+  },
+  {
+    "path": "remote_output/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "requirements_core.txt",
+    "sha256": "d12bd91ecd3aff4471d387811ebd82beb3e3ef472cb5eb3feb8bada69d99fa0e",
+    "bytes": 42
+  },
+  {
+    "path": "requirements_external.txt",
+    "sha256": "69e56630e846b2906bb58054bcae39f00062e942630ef0715bdb4fcc41bc0aff",
+    "bytes": 15
+  },
+  {
+    "path": "requirements_remote_pinned.txt",
+    "sha256": "6db27af52e135562def09e4b392e542250bc826fb2862589ee386458c6167ad9",
+    "bytes": 108
+  },
+  {
+    "path": "run_v121_all_standard.bat",
+    "sha256": "ddb36236093f47a14ff3c8de748374269bc07dfe5e6e8d2eaece9517636ca7a1",
+    "bytes": 523
+  },
+  {
+    "path": "run_v121_doctor.bat",
+    "sha256": "07b51403b649431ca8fe59021a5d2afb6087f44ee287c1de761ae4b78e9d2838",
+    "bytes": 292
+  },
+  {
+    "path": "run_v121_strong_full.bat",
+    "sha256": "3bf412c5ffa3100c28bd88bba86a7122b5deb1b306d4db603e678e50ae54a26e",
+    "bytes": 734
+  },
+  {
+    "path": "run_v121_strong_standard.bat",
+    "sha256": "721ff3cd7b7c0f7769252c96124f46d28b4512606ef39334e940623f825934df",
+    "bytes": 879
+  },
+  {
+    "path": "run_v122_doctor.bat",
+    "sha256": "117325e2f2e5137b6df894628d4b3840fd9079bcdf0868be1caa7516815433ae",
+    "bytes": 282
+  },
+  {
+    "path": "run_v122_strong_full.bat",
+    "sha256": "50ba1c12aeab6dd631847c4edd19a286e67afcf7fbf3a82aac00d6bdef50634d",
+    "bytes": 364
+  },
+  {
+    "path": "run_v122_strong_standard.bat",
+    "sha256": "726fb5391a5ebb04885ac2504a680adb5e3713c14b92dbac6a1f94cc2bd4ab09",
+    "bytes": 808
+  },
+  {
+    "path": "run_v12_full.bat",
+    "sha256": "85d16dd169d4602f98d470e6a830d4f6aca25a92e93b279c23c3acfd1a0e0b4c",
+    "bytes": 915
+  },
+  {
+    "path": "run_v12_standard.bat",
+    "sha256": "7e66a8d8dcfa3e1178c96e6cc800dbb23ac0c96f124901386807bf5a93264b22",
+    "bytes": 858
+  },
+  {
+    "path": "run_v12_strong_only_standard.bat",
+    "sha256": "c0295035c3e4de9a75d374b20b646e27d20c9e64bbaa2770f8261feecb9097b4",
+    "bytes": 294
+  },
+  {
+    "path": "summarize_remote_v13.py",
+    "sha256": "29d04e782a317e5f9f04ebd1c2471c4e1737dac8ac264aab5ef4165f9875fce2",
+    "bytes": 3550
+  },
+  {
+    "path": "validate_remote_kit_v13.py",
+    "sha256": "9f9db7df448824575215362b4865a3f362ef6d01ddeee413b3dcce4ea90c6cef",
+    "bytes": 1356
+  },
+  {
+    "path": "verify_freeze_v12.py",
+    "sha256": "cc1eaf76a2a4fc3e0578891e47eb5679634a4780c831fab75348ef5ff234cf4f",
+    "bytes": 1418
+  },
+  {
+    "path": "verify_patch_v121.py",
+    "sha256": "fbdc71bc4dd4aa81d78d89ca6b0eecef2bc41362bdf9b7a97af2f4f46a979377",
+    "bytes": 1519
+  },
+  {
+    "path": "verify_patch_v122.py",
+    "sha256": "4a1d54108c5c658716ff81f6d13540b593f0197e5d2f3f3003bfeff1a62c3d78",
+    "bytes": 1596
+  }
+]

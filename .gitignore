@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+remote_output/*
+!remote_output/.gitkeep
+results_v122_*/
+doctor_v122_latest.json
+aer_mps_diagnostic_v122_latest.json
+CotatQ_v13_REMOTE_*.zip

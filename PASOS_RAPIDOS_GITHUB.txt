@@ -1,0 +1,14 @@
+COTATQ v1.3 - PASOS RAPIDOS
+
+1) Crea un repositorio NUEVO en GitHub.
+2) Descomprime este ZIP.
+3) Sube TODO lo que hay dentro de la carpeta descomprimida al repositorio.
+   IMPORTANTE: la carpeta .github tiene que quedar en la raiz del repo.
+4) En GitHub abre la pestaña Actions.
+5) Pulsa "CotatQ Remote STANDARD".
+6) Pulsa "Run workflow".
+7) Espera a que terminen Linux y Windows.
+8) En la parte inferior del workflow descarga los DOS artifacts.
+9) Pasamelos aqui.
+
+NO ejecutes CotatQ Remote FULL antes de mirar STANDARD.

@@ -1,0 +1,44 @@
+{
+  "patch_version": "v1.2.1",
+  "patch_type": "external-adapter-only",
+  "original_protocol_version": "1.2-independent-validation-locked-2026-08-03",
+  "original_protocol_lock_sha256": "6a5c3740fd8c8aada4672e4b4d5c957280dc5803ee0df3342d318489b1004266",
+  "locked_case_manifests_sha256": "fec384b3f521bcddf936e5e82e273eb6ed966348c8513dab83635161198a781e",
+  "frozen_subject_hashes": {
+    "cotatq_v04.py": "7f22df932d5a83b59ed98eba77d4c600585686f5ad436b09859d0e54abcab685",
+    "cotatq_v07.py": "89341f7d4590158c66d338280e2ea4a29c7328aba2af88eca31077481482b656",
+    "cotatq_v09.py": "930a79e05fac1fd27059d4e68e856fd3220d8b4ba36d3dfd6221f0ca9a463189",
+    "cotatq_v10.py": "948e7eee7fd58de896bd123c5d2af7a02ac21cc8b3a8c579c45182904e5e2426",
+    "cotatq_v11.py": "9ab021837f81b7a58d13e3e6f4dc85c444c9c9c49ff1e51f18875494584f545e"
+  },
+  "verdict_thresholds": {
+    "accuracy_failures_max": 0,
+    "cold_win_rate_min": 0.7,
+    "cold_geomean_min": 1.1,
+    "cold_ci95_low_min": 1.0,
+    "warm_win_rate_min": 0.55,
+    "warm_geomean_min": 1.0,
+    "advanced_engine_types_available_min": 2,
+    "advanced_case_coverage_min": 0.5
+  },
+  "timeouts_after_ready_go_seconds": {
+    "cotatq": 30.0,
+    "opt-greedy": 30.0,
+    "opt-rg128": 10.0,
+    "cotengra-rg128": 10.0,
+    "cotengra-hyper2s": 7.0,
+    "quimb-auto-hq": 10.0,
+    "aer-mps": 5.0,
+    "aer-auto": 5.0,
+    "aer-statevector": 5.0
+  },
+  "adapter_hashes": {
+    "external_worker_v121.py": "8b8e24a8071da2b9cc350efcd94e9f7caac3f8760ff94ab29e22e6b62b145686",
+    "independent_validation_v121.py": "27c0c1fdeec49d86638d2e30127750cb4ed6172b753700e9650c8df71b4c4515",
+    "doctor_v121.py": "6b2194ae605561cb45f4c704e11723a57c42097eafc028b5f5ab501c187e82a7"
+  },
+  "fixes": {
+    "cotengra-rg128": "direct optimizer(inputs, output, size_dict)",
+    "quimb-auto-hq": "explicit ReusableHyperOptimizer with parallel=False"
+  }
+}

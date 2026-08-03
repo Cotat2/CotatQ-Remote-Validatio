@@ -1,0 +1,20 @@
+{
+  "kit_version": "v1.3-github-remote-reproduction",
+  "scientific_subject": "CotatQ v1.2.2 unchanged",
+  "parent_protocol_lock_sha256": "6a5c3740fd8c8aada4672e4b4d5c957280dc5803ee0df3342d318489b1004266",
+  "parent_patch_lock_v122_sha256": "151e730c30247e2cc09d703882da68208efcb6cf0c449c2e5f3c0283f87503fc",
+  "parent_locked_cases_sha256": "fec384b3f521bcddf936e5e82e273eb6ed966348c8513dab83635161198a781e",
+  "remote_files": {
+    "requirements_remote_pinned.txt": "6db27af52e135562def09e4b392e542250bc826fb2862589ee386458c6167ad9",
+    "remote_entrypoint_v13.py": "de8ae4d2f63f66742bf6b41e9370f967b00b4a8ec7e91cc160b4abc258c6ee25",
+    "remote_hardware_probe_v13.py": "cee645bd4e92d883d69412527947464d03db26806d8e85de26ee7a8e27e823b0",
+    "summarize_remote_v13.py": "29d04e782a317e5f9f04ebd1c2471c4e1737dac8ac264aab5ef4165f9875fce2",
+    "bundle_remote_v13.py": "6375bb46742d31bd44d383b850f51cbc7d1b71fabf0db039d126bdd358d0e1a6",
+    "compare_remote_to_local_v13.py": "e04c07bd71fea3ebc287059962403f91faffacbd4f2a0e9abb00b56becbfcc56",
+    ".github/workflows/cotatq-remote-doctor.yml": "4162da41bce2edec95cde0533c166279ffe650ffe29f49115603bf97893818ef",
+    ".github/workflows/cotatq-remote-standard.yml": "8f141a125e54721e6e3be69e37f72b6da8effe0d5f229b9c7f139aaca7bbe949",
+    ".github/workflows/cotatq-remote-full.yml": "5362d40e0b379fe57f107dfc551363280eba365fdf3b411b5da22adbed5762fb",
+    "REFERENCE_LOCAL_v122_FULL.json": "5cb201e8ca47bb98c930a6b90e2cdcd3be21deacd91d1548aee2fb0c16d4d60d"
+  },
+  "note": "This lock covers orchestration. Scientific scoring remains the locked v1.2 protocol."
+}

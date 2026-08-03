@@ -1,0 +1,7 @@
+numpy==2.4.6
+psutil==7.2.2
+opt_einsum==3.4.0
+qiskit==2.5.1
+qiskit-aer==0.17.2
+cotengra==0.8.2
+quimb==1.14.0

@@ -1,0 +1,3770 @@
+{
+  "reproduction_standard": {
+    "count": 72,
+    "sha256": "eeb9682abee18e912c6fbb3807e182702aa598c9da2a7e274fd6e338fafbc56b",
+    "cases": [
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      }
+    ]
+  },
+  "reproduction_full": {
+    "count": 270,
+    "sha256": "7370d449dd8282a5bf1cbd53b3f6ba964a7bc5d2d60f5efa5dacc92d8b0b86af",
+    "cases": [
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 101,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 303,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 404,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 404,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 404,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 505,
+        "profile": "checker_to_random",
+        "target": false
+      }
+    ]
+  },
+  "strong_standard": {
+    "count": 36,
+    "sha256": "c571e95b464f524fee334e23904921d2d06b309166c617cf46f6459d8a535eac",
+    "cases": [
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      }
+    ]
+  },
+  "strong_full": {
+    "count": 90,
+    "sha256": "eacbb1844e17d15344c915ea37f62f35c06533ebe31367f75387c954d9a8f45f",
+    "cases": [
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 80,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 40,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 60,
+        "depth": 3,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 30,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 40,
+        "depth": 2,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 40,
+        "depth": 6,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 60,
+        "depth": 8,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 36,
+        "depth": 5,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 101,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 101,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 303,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 303,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 505,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 49,
+        "depth": 6,
+        "seed": 505,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "random_matching_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "small_world_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "hub_spoke_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": true
+      },
+      {
+        "family": "dense_longrange_complex",
+        "n": 20,
+        "depth": 2,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": true
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "local_brickwork_complex",
+        "n": 20,
+        "depth": 4,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "zero_to_zero",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "random_to_random",
+        "target": false
+      },
+      {
+        "family": "grid2d_complex",
+        "n": 25,
+        "depth": 4,
+        "seed": 202,
+        "profile": "checker_to_random",
+        "target": false
+      }
+    ]
+  }
+}
