@@ -1,0 +1,94 @@
+name: CotatQ Remote FULL UTF8
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_full:
+        description: "I already inspected Remote STANDARD and want the full locked run"
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cotatq-full-utf8-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  full:
+    if: ${{ inputs.confirm_full }}
+    name: FULL UTF8 - ${{ matrix.os }} - Python 3.14
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 330
+
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      NUMEXPR_NUM_THREADS: "1"
+      VECLIB_MAXIMUM_THREADS: "1"
+
+      # Compatibility-only console fix.
+      # No benchmark cases, seeds, thresholds, timeouts or CotatQ code are changed.
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: "utf-8"
+
+    steps:
+      - name: Checkout locked repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.14
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+          cache-dependency-path: requirements_remote_pinned.txt
+
+      - name: Install exact benchmark dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements_remote_pinned.txt
+
+      - name: Confirm UTF-8 console
+        run: |
+          python -c "import sys; print('stdout=', sys.stdout.encoding); assert sys.stdout.encoding.lower().replace('-','') == 'utf8'"
+
+      - name: Run locked remote FULL
+        run: python remote_entrypoint_v13.py --mode full --runner-label "github-${{ runner.os }}-${{ runner.arch }}-utf8"
+
+      - name: Build compact summary
+        if: always()
+        run: python summarize_remote_v13.py --mode full
+
+      - name: Compare FULL to local validated reference
+        if: always()
+        run: python compare_remote_to_local_v13.py remote_output/REMOTE_RESULT_SUMMARY_full.json
+
+      - name: Bundle all evidence
+        if: always()
+        run: python bundle_remote_v13.py --mode full
+
+      - name: Upload complete evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cotatq-v13-full-${{ runner.os }}-${{ runner.arch }}-utf8-${{ github.run_id }}
+          if-no-files-found: warn
+          retention-days: 30
+          path: |
+            remote_output/**
+            results_v122_reproduction_full/**
+            results_v122_strong_full/**
+            doctor_v122_latest.json
+            aer_mps_diagnostic_v122_latest.json
+            PROTOCOL_LOCK.json
+            LOCKED_CASE_MANIFESTS.json
+            FROZEN_SUBJECT_HASHES.json
+            PATCH_LOCK_v122.json
+            REMOTE_PROTOCOL_LOCK_v13.json
