@@ -1,0 +1,79 @@
+name: CotatQ Remote WINDOWS RETRY
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cotatq-windows-retry-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  windows-standard:
+    name: WINDOWS RETRY - windows-latest - Python 3.14
+    runs-on: windows-latest
+    timeout-minutes: 180
+
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      NUMEXPR_NUM_THREADS: "1"
+      VECLIB_MAXIMUM_THREADS: "1"
+
+      # Compatibility-only fix for Windows console encoding.
+      # No scientific benchmark settings are changed.
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: "utf-8"
+
+    steps:
+      - name: Checkout locked repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.14
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+          cache-dependency-path: requirements_remote_pinned.txt
+
+      - name: Install exact benchmark dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements_remote_pinned.txt
+
+      - name: Confirm UTF-8 console
+        run: |
+          python -c "import sys,locale; print('stdout=',sys.stdout.encoding); print('preferred=',locale.getpreferredencoding(False)); assert sys.stdout.encoding.lower().replace('-','') == 'utf8'"
+
+      - name: Run locked remote STANDARD on Windows
+        run: python remote_entrypoint_v13.py --mode standard --runner-label "github-Windows-${{ runner.arch }}-utf8-retry"
+
+      - name: Build compact summary
+        if: always()
+        run: python summarize_remote_v13.py --mode standard
+
+      - name: Bundle all evidence
+        if: always()
+        run: python bundle_remote_v13.py --mode standard
+
+      - name: Upload complete evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cotatq-v13-standard-Windows-${{ runner.arch }}-utf8-${{ github.run_id }}
+          if-no-files-found: warn
+          retention-days: 30
+          path: |
+            remote_output/**
+            results_v122_reproduction_standard/**
+            results_v122_strong_standard/**
+            doctor_v122_latest.json
+            aer_mps_diagnostic_v122_latest.json
+            PROTOCOL_LOCK.json
+            LOCKED_CASE_MANIFESTS.json
+            FROZEN_SUBJECT_HASHES.json
+            PATCH_LOCK_v122.json
+            REMOTE_PROTOCOL_LOCK_v13.json
